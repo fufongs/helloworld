@@ -13,7 +13,7 @@ pipeline {
                 script {
                     currentBuild.description = "Building on ${env.NODE_NAME}"
                 }
-                sh 'go run hello-world.go'
+                sh 'go run hello-world.g'
             }
         }
     }
